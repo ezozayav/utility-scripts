@@ -47,9 +47,3 @@ while (my $seq_obj = $in->next_seq){
 		$outfiles{"$coor[$i][0]-$coor[$i][1]"}->write_seq($new_seq_obj);	
 	}	
 }
-
-
-
-
-
-
